@@ -12,7 +12,7 @@ To download a video using this tool, you first need to obtain its `.m3u8` stream
 
 3. **Go to the "Network" Tab**
    - In the developer tools panel, click the **Network** tab.
-   - Refresh the page (`F5`) to begin capturing all network activity.
+   - Refresh the page (`F5`) to capture all network activity.
 
 4. **Filter by "m3u8"**
    - In the filter/search bar, type `m3u8` to show only requests with `.m3u8` in the URL.
@@ -26,6 +26,9 @@ To download a video using this tool, you first need to obtain its `.m3u8` stream
 
 7. **Paste into the Downloader**
    - Use this link as the input URL in your Colab notebook.
+     
+![image](https://github.com/user-attachments/assets/8765c436-15f3-470f-8b5d-08f3197aa8cc)
+
 
 ---
 
@@ -53,6 +56,8 @@ M3U8 playlists are commonly used for HLS (HTTP Live Streaming). This project pro
 - 🧵 Download multiple videos in parallel using Python threads
 - 🔁 Real-time progress bars with `tqdm`
 - 🧩 Intuitive widget-based UI
+
+![image](https://github.com/user-attachments/assets/50ac104b-bdfb-40b1-a2d3-8e8ef4ee4109)
 
 ---
 
